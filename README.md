@@ -1,3 +1,4 @@
+{% load static %}
 # Post Quality Predictor
 
 ## Overview
@@ -62,7 +63,12 @@ Ensure the following are installed:
 
 Below is a video demonstrating the app in action:
 
-![Demo Video]('/home/shuaib/Desktop/School/Django/icog_django/ml_model_django_app.mp4') 
+![Demo Video](
+<video width="600" controls>
+  <source src="{% static 'videos/ml_model_django_app.mp4' %}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+) 
 
 
 ## Key Components
