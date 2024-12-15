@@ -1,0 +1,4 @@
+venv/
+prediction/post_quality/__pycache__/
+prediction/predict/__pycache__/
+prediction/prediction/__pycache__/
